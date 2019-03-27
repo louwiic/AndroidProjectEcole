@@ -1,0 +1,30 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "expo": "^32.0.6",
+    "native-base": "^2.12.0",
+    "nuka-carousel": "^4.5.2",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-carousel-swiper": "^1.1.0",
+    "react-native-elements": "^1.1.0",
+    "react-native-snap-carousel": "^3.7.5",
+    "react-native-vector-icons": "^6.3.0",
+    "react-navigation": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0"
+  },
+  "private": true,
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/Raleway/"
+    ]
+  }
+}
